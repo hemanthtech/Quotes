@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- use whatever drawables you want, gradients, shapes etc-->
+    <item android:drawable="@drawable/grad2" />
+    <item android:drawable="@drawable/grad3" />
+    <item android:drawable="@color/Brown" />
+    <item android:drawable="@color/Orange" />
+    <item android:drawable="@color/white" />
+
+</transition>

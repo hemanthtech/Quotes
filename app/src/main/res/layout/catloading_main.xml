@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    tools:context=".Splash">
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:src="@drawable/mouse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mouse"/>
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:id="@+id/x1"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:src="@drawable/cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="16.5dp"
+            android:src="@drawable/eyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/eye_left"/>
+
+        <in.techmafiya.quotes.loading.EyelidView
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16.5dp"
+            android:src="@drawable/eyes"
+            android:layout_width="24dp"
+            android:layout_height="15dp"
+            android:id="@+id/eyelid_left"/>
+
+        <ImageView
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="16.5dp"
+            android:src="@drawable/eyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/eye_right"/>
+
+        <in.techmafiya.quotes.loading.EyelidView
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="16.5dp"
+            android:src="@drawable/eyes"
+            android:layout_width="24dp"
+            android:layout_height="15dp"
+            android:id="@+id/eyelid_right"/>
+    </RelativeLayout>
+
+    <in.techmafiya.quotes.loading.GraduallyTextView
+        android:id="@+id/graduallyTextView"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"
+        android:layout_below="@+id/mouse"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:text="L O A D I N G ..."
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

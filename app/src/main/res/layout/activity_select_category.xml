@@ -1,0 +1,100 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:id="@+id/xy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:minHeight="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select ur Interest"
+                android:paddingTop="10dp"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:id="@+id/toolbar_title" />
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Graduation" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBox2"
+            android:layout_below="@+id/checkBox2"
+            android:layout_marginTop="21dp"
+            android:text="Post Graduation" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBox2"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="66dp"
+            android:text="12th Pass" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Graduation" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBox2"
+            android:layout_below="@+id/checkBox4"
+            android:layout_marginTop="21dp"
+            android:text="Post Graduation" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBox2"
+            android:layout_below="@+id/checkBox5"
+            android:layout_marginTop="21dp"
+            android:text="Post Graduation" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBox2"
+            android:layout_below="@+id/checkBox6"
+            android:layout_marginTop="21dp"
+            android:text="Post Graduation" />
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>

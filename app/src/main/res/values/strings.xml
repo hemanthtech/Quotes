@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quotes</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Quotes By you!</string>
+    <string name="slide_1_desc">Platform to get motivated by people\'s thoughts</string>
+
+    <string name="slide_2_title">Express!</string>
+    <string name="slide_2_desc">Express your own thoughts</string>
+
+    <string name="slide_3_title">Share!</string>
+    <string name="slide_3_desc">Share the best on every social platform </string>
+
+    <string name="slide_4_title">Report!</string>
+    <string name="slide_4_desc">Report the Irrelevant, save the world of Quotes</string>
+
+    <string name="an">Anonymous</string>
+
+</resources>
